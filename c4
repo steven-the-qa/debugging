@@ -1,0 +1,7 @@
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = receivables - payables;
+console.log(`Net working capital is: ${netWorkingCapital}`);
+
+//Spelling errors are the most common kind of syntax-level bug
+//When there is a misspelling, the browser will look for an object that doesn't exist and throw a reference error
