@@ -1,0 +1,11 @@
+let a = 5;
+let b = 1;
+a++;
+// Add your code below this line
+console.log(a);
+
+let sumAB = a + b;
+console.log(sumAB);
+
+//Using 'console.log()' helps you debug by showing intermediate values of variables in your code
+//Placing this statement throughout your code at strategic points can help you find when a calculation goes wrong 
