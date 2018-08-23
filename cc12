@@ -1,0 +1,8 @@
+function myFunc() {
+  for (let i = 1; i <= 4; i += 2) {
+    console.log("Still going!");
+  }
+}
+
+//Infinite loops are C R A Z Y so don't make them and DEFINITELY don't call functions that have them
+//Just make sure the terminal condition is eventually reached in a loop. Make sure it eventually stops or you can crash your browser
