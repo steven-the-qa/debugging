@@ -1,0 +1,5 @@
+let innerHtml = "<p>Click here to <a href=\"#Home\">return home</a></p>";
+console.log(innerHtml);
+
+//When using nested quotations, you must either escape the inner set if they are of the same type, 
+or change the inner set's to the other type to avoid closing the outer quotation too early
