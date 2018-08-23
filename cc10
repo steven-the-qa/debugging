@@ -1,0 +1,14 @@
+function countToFive() {
+  let firstFive = "12345";
+  let len = firstFive.length;
+  // Fix the line below
+  for (let i = 0; i < len; i++) {
+  // Do not alter code below this line
+    console.log(firstFive[i]);
+  }
+}
+
+countToFive();
+
+//Off by one errors (OBOE) are common when looping and using methods that call for indices as arguments
+//Gotta make sure you know if the method you're using works with inclusive or non-inclusive number ranges
