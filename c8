@@ -1,0 +1,10 @@
+function getNine() {
+  let x = 6;
+  let y = 3;
+  return x + y;
+}
+
+let result = getNine();
+console.log(result);
+
+//Without the () at the end of the function call, you're only referencing the function, not the value returned by it
